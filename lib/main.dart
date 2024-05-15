@@ -1,11 +1,12 @@
-import 'package:adstackui/sidemenu.dart';
+// import 'package:adstackui/dashboard.dart';
+import 'package:adstackui/calendar.dart';
 import 'package:flutter/material.dart';
 
 
 void main(){
-  runApp(
+  runApp( 
     const MaterialApp(
       home: SideMenu(),
     ),
   );
-}
+} 
